@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+
+@theme {
+   --font-anson: "Anson", sans-serif;
+   --font-pitagon: "Pitagon", sans-serif;
+}
+
+@font-face {
+   font-family: 'Anson';
+   src: url('./lib/font/Anson.woff2') format('woff2');
+   font-weight: 400;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Pitagon';
+   src: url('./lib/font/PitagonSansMono.woff2') format('woff2');
+   font-weight: 400 700;
+   font-style: normal;
+}
