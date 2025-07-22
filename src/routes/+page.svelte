@@ -17,7 +17,9 @@
 				<em class="text-emerald-400">"to build"</em>, curates custom playlist based on your most
 				played spotify tracks.
 			</p>
-			<button class="font-pitagon group flex w-fit gap-1 leading-none font-bold uppercase">
+			<button
+				class="font-pitagon group flex w-fit cursor-pointer gap-1 leading-none font-bold uppercase"
+			>
 				<span class="rounded bg-neutral-800 p-4">link spotify</span>
 				<span class="relative isolate overflow-hidden rounded bg-neutral-800 p-3">
 					<span
@@ -33,7 +35,8 @@
 		<nav class="flex items-end gap-6 p-4">
 			<a href="/"><img src="/favicon.webp" alt="favicon" class="size-6" /></a>
 			<a
-				href="/"
+				href="https://github.com/deepakrawat31/bauen"
+				target="_blank"
 				class="font-pitagon flex items-end gap-1 leading-tight uppercase transition-colors duration-300 hover:text-emerald-400"
 			>
 				<span>github</span>
